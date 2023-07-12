@@ -1,6 +1,6 @@
 document.getElementById("translate").addEventListener("click",function () {
     const change =document.getElementById("change");
-  change.innerText="এটা আমাদের  নিজস্ব ওয়েবসাইট";
+  change.innerText="এটি আমাদের মেসের নিজস্ব ওয়েবসাইট";
     const changeHeader =document.getElementById("change-header");
   changeHeader.innerText="নাজির বাড়ি মেস";
   const btn=document.getElementById("translate");
