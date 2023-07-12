@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Birpasa Mess</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+   <header>
+    <section class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#"><h3>Najir Bari Mess</h3></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <div class="mx-lg-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" href="member.html">Members</a>
+                    </li>
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+               </div>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section class="mt-5 bg-warning-subtle p-4 container rounded">
+        <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-column align-items-center justify-content-center ">
+            <div class="text-center text-lg-start p-3">
+                <h2 id="change-header">Najir Bari Mess</h2>
+                <p id="change">This is our mess's own website</p>
+                <button class="btn  btn-danger " id="translate" >Translate</button>
+                <button class="btn  btn-success d-none" id="re-translate" >English</button>
+            </div>
+          <div class="ms-5">
+            <img class="img-fluid rounded-2" src="images/img1.jpg" alt=""> 
+          </div>
+        </div>
+    </section>
+   </header>
+   <main class="container">
+<section class="mt-5">
+  <h2 class="text-center">Some Pictures</h2>
+  <div class="d-flex justify-content-center align-items-center flex-lg-row flex-md-column flex-sm-column flex-column">
+    <div>
+      <img class="ms-2 mt-2 img-fluid" src="images/img2.jpg" alt="">
+    </div>
+    <div>
+      <img class="ms-2 mt-2 img-fluid" src="images/img3.jpg" alt="">
+    </div>
+    <div>
+      <img class="ms-2 mt-2 img-fluid" src="images/img5.jpg" alt="">
+    </div>
+  </div>
+</section>
+<!-- contact -->
+<section class="mt-5 container bg-body-secondary p-4 rounded-2" id="contact">
+<div class="d-flex justify-content-center flex-lg-row flex-column align-items-center">
+ <div>
+  <div>
+    <a target="_blank" href="https://www.facebook.com/profile.php?id=100064069724626" class="fs-3 text-dark"><i class="fa-brands fa-facebook"></i></a>
+  </div>
+ <div>
+  <a target="_blank" href="https://www.instagram.com/as_ratul_/" class="fs-3 text-dark"><i class="fa-brands fa-instagram"></i></a>
+ </div>
+ <div>
+  <a href="tel:01867781018" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" class="fs-4 text-dark link-offset-2 link-underline link-underline-opacity-0 phonecall"><i class="fa-solid fa-phone">: </i>01867781018</a>
+ </div>
+ </div> 
+ <div class="ms-lg-4 mt-lg-0 mt-2">
+ <form action="">
+  <h2>Content Our Email</h2>
+  <div class="mb-3">
+    <input type="email" class="form-control p-2" id="name" placeholder="Enter Your Full Name">
+  </div>
+  <div class="mb-3">
+    <input type="email" class="form-control p-2" id="number" placeholder="Enter Your Mobile Number">
+  </div>
+  <div class="mb-3">
+    <input type="email" class="form-control p-2" id="email" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="text" rows="3"></textarea>
+  </div>
+  <div>
+    <button class="btn btn-success">Submit</button>
+   </div>
+ </form>
+ </div>
+</div>
+</section>
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</script>
+  </body>
+</html>

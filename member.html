@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Birpasa Mes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <!-- css -->
+     <link rel="stylesheet" href="style.css">
+     <!-- cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <header>
+    <section class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#"><h3>Najir Mess</h3></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <div class="mx-lg-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" aria-current="page" href="#" onclick="back()">Home</a>
+                    </li>
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" href="#">Members</a>
+                    </li>
+                    <li class="nav-item ms-lg-4">
+                      <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+               </div>
+              </div>
+            </div>
+          </nav>
+    </section>
+  </header>
+  <main>
+    <section class="container mt-4" id="remove">
+        <h3 class="text-center">Mess Members</h3>
+        <div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/img6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Md Rakib Hasan</h3>
+                        <button  class="btn btn-primary" onclick="member1()">Contact</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/img8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h3 class="card-title">Nahid Hassan Sagor</h3>
+                        <button  class="btn btn-primary" onclick="member2()">Contact</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="container mt-4 d-none" id="info">
+     <div class="d-flex  flex-column align-items-center d-none" id="member1">
+        <img width="250px" src="images/img6.jpg" alt="">
+         <div class="p-4">
+            <h3>Name: Md Rakib Hasan</h3>
+            <h3>Semester: 6th</h3>
+            <h3>Depertment: AIDT</h3>
+            <h3>Mobile number: 018166988101</h3>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100077349044637" class="d-block fs-3 link-offset-2 link-underline link-underline-opacity-0"><i class="fa-brands fa-facebook text-dark">: </i> Md Rakib Hasan</a>
+         </div>
+     </div>
+     <div class="d-flex  flex-column align-items-center d-none" id="member2">
+      <img  src="images/img8.jpg" alt="">
+      <div class="p-4"> 
+        <h3>Name: Nahid Hassan Sagor</h3>
+        <h3>Semester: 4th</h3>
+        <h3>Depertment: CST</h3>
+        <h3>Mobile number: 01829431062</h3>
+        <a target="_blank" href="https://www.facebook.com/mdnahidhasan.sohag.73" class="d-block fs-3 link-offset-2 link-underline link-underline-opacity-0"><i class="fa-brands fa-facebook text-dark">: </i> Md Nahid Hasan Sohag</a>
+      </div>
+     </div>
+     <div>
+     </div>
+     <div class="d-flex justify-content-center mt-3">
+      <button onclick="fresh()" class="btn btn-lg btn-outline-warning"><i class="fa-solid fa-rotate-right"></i></button>
+     </div>
+    </section>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="history.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
