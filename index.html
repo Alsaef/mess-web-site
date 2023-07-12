@@ -83,23 +83,23 @@
  </div>
  </div> 
  <div class="ms-lg-4 mt-lg-0 mt-2">
- <form action="">
+ <form action="https://formspree.io/f/mgejedwd" method="POST">
   <h2>Content Our Email</h2>
   <div class="mb-3">
-    <input type="email" class="form-control p-2" id="name" placeholder="Enter Your Full Name">
+    <input type="text" class="form-control p-2" id="name" name="name" placeholder="Enter Your Full Name" required>
   </div>
   <div class="mb-3">
-    <input type="email" class="form-control p-2" id="number" placeholder="Enter Your Mobile Number">
+    <input type="number" class="form-control p-2" id="number" name="number" placeholder="Enter Your Mobile Number" required>
   </div>
   <div class="mb-3">
-    <input type="email" class="form-control p-2" id="email" placeholder="name@example.com">
+    <input type="email" class="form-control p-2" id="email" name="email" placeholder="name@example.com" required>
   </div>
   <div class="mb-3">
     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="text" rows="3"></textarea>
+    <textarea class="form-control" id="text" rows="3" name="text" required></textarea>
   </div>
   <div>
-    <button class="btn btn-success">Submit</button>
+    <button class="btn btn-success" type="submit">Submit</button>
    </div>
  </form>
  </div>
@@ -110,6 +110,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="app.js"></script>
     <script src="scroll.js"></script>
+    <script src="send-mail.js"></script>
 </script>
   </body>
 </html>
